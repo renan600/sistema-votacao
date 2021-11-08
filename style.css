@@ -1,0 +1,84 @@
+@charset "UTF=8";
+
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}   
+section{
+    background-color: #606060a6;
+    min-height:200px;
+    max-width:600px;
+    margin:50px auto auto auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.795);
+}
+
+h1{ 
+    font-size: 3em;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+h2{ 
+    margin-top: -250px;
+    margin-bottom:50px;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+
+p{
+    color:white;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px black;
+    
+    
+}
+
+div#titulo{
+    text-align:center;
+}
+div#votacao{
+    text-align:center;
+}
+div#participantes{
+    text-align: left;
+}
+input{
+   display: block;
+   margin:20px auto 10px auto;
+   border-radius: 5px;
+   padding: 5px;
+}
+button#prefeito , #vereador , #governador{
+   margin:auto;
+   display: block;
+   padding:5px 30px 5px 30px;
+   border-radius: 30px;
+   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.336);
+   
+}
+button#prefeito:hover , #vereador:hover , #governador:hover{
+    background-color: #606060bb;
+    color: white;
+}
+button#inicio{
+    margin-top:30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.336);
+   
+    
+}
+button#inicio:hover{
+    background-color: #606060bb;
+    color: white;
+}
+
